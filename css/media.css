@@ -1,0 +1,91 @@
+@media (min-width: 768px) {
+    .header {
+        padding: 0 24px;
+    }
+
+    .menu {
+        padding-left: 24px;
+    }
+
+    .info__page-title {
+        padding-left: 20px;
+    }
+    
+    .about {
+        flex-direction: row;
+        column-gap: 48px;
+        padding-top: 32px;
+    }
+
+    .about__content {
+        flex-basis: 50%;
+        margin-bottom: 0;
+        padding-left: 24px;
+        padding-right: 0;
+    }
+
+    .about__logo {
+        flex-basis: 50%;
+        padding-right: 25px;
+    }
+
+    .about__photo {
+        border-radius: 10px;
+    }
+
+    .about__text--hidden-on-phone {
+        display: block;
+    }
+
+    .about__text--hidden-on-pad {
+        display: none;
+    }
+
+    .button--call,
+    .button--chat,
+    .button--profile,
+    .devider-1 {
+    display: inline-block;
+    }
+
+}
+
+@media (min-width: 1120px) {
+    .header {
+        display: none;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        padding-left: 34px;
+    }
+
+    .info {
+        padding-top: 42px;
+        margin-bottom: 8px;
+    }
+
+    .info__page-title {
+        padding-left: 30px;
+    }
+
+    .about {
+        padding-top: 7px;
+    }
+
+    .about__content {
+        padding-left: 34px;
+    }
+
+    .about__text--hidden-on-pad {
+        display: inline;
+    }
+
+    .info__button--hidden {
+        display: flex;
+    }
+
+    .menu--blur {
+        display: none;
+    }
+}
