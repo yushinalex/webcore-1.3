@@ -114,7 +114,19 @@ body {
 }
 
 .info__image {
-    padding-left: 8px;
+    margin-left: 8px;
+}
+
+.info__image--repair {
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/repairbutton.svg");
+}
+
+.info__image--checkstatus {
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/checkstatus.svg");
 }
 
 .info__button--hidden {
@@ -193,6 +205,11 @@ body {
     cursor: pointer;
 }
 
+.expand {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/expand.svg");
+}
 
 .about__photo {
     max-width: 100%;
