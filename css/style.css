@@ -80,6 +80,12 @@ body {
     display: flex;
 }
 
+.info__highlight {
+    width: 4px;
+    height: 40px;
+    background-image: url("../img/highlight.svg");
+}
+
 .info__page-title {
     color: #1B1C21;
     margin: 0;
