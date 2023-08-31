@@ -123,8 +123,14 @@ body {
 
 .menu {
     display: flex;
+}
+
+.menu__list {
+    list-style-type: none;
+    display: flex;
     overflow: auto;
     padding-left: 16px;
+    margin: 0;
 }
 
 .menu__link {

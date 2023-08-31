@@ -3,7 +3,7 @@
         padding: 0 24px;
     }
 
-    .menu {
+    .menu__list {
         padding-left: 24px;
     }
 
@@ -55,7 +55,7 @@
         display: none;
     }
 
-    .menu {
+    .menu__list {
         flex-wrap: wrap;
         padding-left: 34px;
     }
