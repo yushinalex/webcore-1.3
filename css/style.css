@@ -80,18 +80,22 @@ body {
     display: flex;
 }
 
-.info__highlight {
+.info__page-title {
+    position: relative;
+    color: #1B1C21;
+    margin: 0;
+    padding-left: 16px;
+    white-space: nowrap;
+    align-self: center;
+}
+
+.info__page-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
     width: 4px;
     height: 40px;
     background-image: url("../img/highlight.svg");
-}
-
-.info__page-title {
-    color: #1B1C21;
-    margin: 0;
-    padding-left: 12px;
-    white-space: nowrap;
-    align-self: center;
 }
 
 .info__buttons {
@@ -196,7 +200,6 @@ body {
     background-color: transparent;
     border: 0;
     padding: 0;
-    height: 40px;
     font-family: 'TT Lakes', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -205,7 +208,8 @@ body {
     cursor: pointer;
 }
 
-.expand {
+.about__button::before {
+    content: "";
     width: 24px;
     height: 24px;
     background-image: url("../img/expand.svg");
