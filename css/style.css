@@ -117,20 +117,25 @@ body {
     cursor: pointer;
 }
 
-.info__image {
+.info__image--repair::after {
+    content: "";
     margin-left: 8px;
-}
-
-.info__image--repair {
     width: 40px;
     height: 40px;
-    background-image: url("../img/repairbutton.svg");
+    border-radius: 50%;
+  
+    background: url("../img/repair.svg") no-repeat center #FF3E79;
+
 }
 
-.info__image--checkstatus {
+.info__image--checkstatus::after {
+    content: "";
+    margin-left: 8px;
     width: 40px;
     height: 40px;
-    background-image: url("../img/checkstatus.svg");
+    border-radius: 50%;
+    background: url("../img/check.svg") no-repeat center #FF3E79;
+
 }
 
 .info__button--hidden {
